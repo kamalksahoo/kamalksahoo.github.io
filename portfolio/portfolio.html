@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="icon" href="./k.png" type="image/gif" >
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            background-color: rgba(108, 75, 218, 0.116);
+        }
+        .containers{
+            width:90%;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+            margin: auto;
+            margin-top: 50px;;
+            position: relative;
+            z-index:1;
+            flex-wrap: wrap;
+        }
+
+        #item1{
+            width:50vh;
+            /* height: 50vh; */
+            background-color: rgb(204, 217, 241);
+            margin: 5px;
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+            border-radius: 15px;
+            flex-grow: 15;
+            flex-direction: column;
+        }
+       
+        #item2{
+            width:50vh;
+            height: auto;
+            background-color: rgb(235, 220, 230);
+            margin: 5px;
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+            border-radius: 15px;
+            flex-grow: 15;
+            flex-direction: column;
+        }
+        #item3{
+            width:50vh;
+            height: auto;
+            background-color: rgba(140, 179, 170, 0.199);
+            margin: 5px;
+            display: flex;
+            /* justify-content: center;
+            align-items: center; */
+            border-radius: 15px;
+            flex-grow: 15;
+            flex-direction: column;
+        }
+        .innerdiv{
+            /* display: flex; */
+            align-self: flex-end;
+            justify-content: center;
+            margin: 10px;
+            margin-top: auto;
+            
+        }
+        .description{
+            color: brown;
+            text-justify: auto;
+            padding-right: 10px;
+            padding-left: 10px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .tech{
+            display: flex;
+            flex-direction: column;
+            text-justify: auto;
+            text-align: left;
+            padding-left: 10px;
+     
+        }
+        #item1:hover{
+            background-color: rgb(225, 236, 163);
+        }
+        #item2:hover{
+            background-color: rgb(225, 236, 163);
+        }
+        #item3:hover{
+            background-color: rgb(225, 236, 163);
+        }
+        .headers a{
+            color: blue;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .headers a:hover{
+           color: rgb(234, 241, 131);
+        background-color: brown;
+        }
+        #outer{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+        }
+        img{
+            width: 50%;
+        }
+        .left{
+            width: 60vh;
+           /* border:1px solid black; */
+            height: 60vh;
+            margin-right: 15px;
+            margin-top: 15px;
+            display:flex;
+            border-radius: 150px;
+
+
+        }
+        .right{
+            /* border:1px solid black; */
+           width: 60vh;
+            height: 60vh;
+            margin-left: 15px;
+            margin-top: 15px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: rgb(253, 193, 193); */
+            flex-direction: column;
+            border-radius: 20px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            flex-grow: 50;
+
+        }
+        img{
+            width: 100%;
+            border-radius: 150px;
+        }
+      
+        .inner{
+            background-color: rgb(218, 247, 247);
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin:20px;
+            padding: 20px;;
+            border-radius: 100px;
+        }
+        #texts span{
+            font-size: medium;
+            color: rgb(2, 47, 247);
+            text-align: center;
+            font-weight: 800;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #texts p{
+            font-size: large;
+            color: brown;
+            font-weight: bolder;
+        }
+  
+
+    </style>
+</head>
+<body>
+
+    <div style="height: 50px; padding: 10px;" class="container-fluid bg-success text-center headers">
+        <a style="font-weight: bold; font-size: larger; margin: 10px; "  href="#outer">Home</a>
+        <a  style="font-weight: bold; font-size: larger; margin: 10px; " href="#data" > My Projects</a>
+        <a style="font-weight: bold; font-size: larger; margin: 10px; " href="" >Contact us</a>
+    </div>
+    <div id="outer">
+        <div class="inner">
+            <div class="left">
+                <img src="./my pic.jpg">
+            </div>
+            <div class="right">
+                <marquee><p style="font-size:50px; font-weight: bolder; color:rgb(207, 16, 16);font-family: Verdana, Geneva, Tahoma, sans-serif; text-shadow: blue 2px 5px;">KAMAL KANT SAHOO</p></marquee>
+                <p style="font-size: 30px;font-family:'Times New Roman', Times, serif; font-weight: bold; text-shadow: rgb(245, 138, 124) 5px 1px;">Developer | Programmer</p>
+                <div id="texts">
+
+                    <p style="font-size: x-large;">Skillset</p>
+                    <p>Web Languages : <span>HTML ,CSS ,JS</span></p>
+                    <p>Programming Languages : <span>C ,C++ ,JAVA</span></p>
+                    <p>Frameworks: <span>BOOTSTRAP ,REACT JS ,REACT NATIVE</span></p>
+                    <p>Databases Languages : <span>MYSQL ,MONGODB</span></p>
+                    <p>Tools : <span>GIT ,GITHUB ,POSTMAN ,TRELLO</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="containers" id="data">
+        <div id="item1">
+            <h3 style="text-align: center;">Project Ecommerce Website</h3>
+            <p class="description">
+               An Ecommerce App is made using MERN Stack. Where you can able to buy the items , add items to cart ,update items etc.Also stripe payment API is integrated.
+            </p>
+            <div style="display: flex;flex-direction: row">
+            <div class="tech">
+                <h4 style="text-align: left;font-size: larger;font-weight: bolder;text-decoration:underline;">Technology used</h4>
+                <h6 style="font-weight: bold; font-size: medium;">Languages:<span style="font-size:small;color: darkblue;">Html,Css,Javascript</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Technology:<span style="font-size:small;color: darkblue;">MERN Stack</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Tools:<span style="font-size:small;color: darkblue;">postman</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Databse:<span style="font-size:small;color: darkblue;">mongodb</span></h6>
+            </div>
+            <div class="innerdiv">
+                    <a href="https://centered-effort-228711.web.app/" class="btn btn-primary">
+                        View Live
+                    </a>
+                    <a href="https://github.com/kamalksahoo/ecommerce-website/tree/master" class="btn btn-danger">
+                        View Source Code
+                    </a>
+            </div>
+        </div>
+        </div>
+        <div id="item2">
+            <h3 style="text-align: center;">Project Movie Rater App</h3>
+            <p class="description">
+               A simple Movie rating app,where you can add and rate the different movies.The idea behind to create these app is to understand how the React State Hooks is work.
+            </p>
+            <div style="display: flex;flex-direction: row">
+            <div class="tech">
+                <h4 style="text-align: left;font-size: larger;font-weight: bolder;">Technology used</h4>
+                <h6 style="font-weight: bold; font-size: medium;">Languages:<span style="font-size:small;color: darkblue;">html,css,js</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Technology:<span style="font-size:small;color: darkblue;">React</span></h6>
+                <!-- <h6 style="font-weight: bold; font-size: medium;">Tools:<span style="font-size:small;color: darkblue;">postman</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Databse:<span style="font-size:small;color: darkblue;">mongodb</span></h6> -->
+            </div>
+            <div class="innerdiv">
+                <a class="btn btn-primary" href="https://molten-castle-265509.web.app/">
+                    View Live
+                </a>
+                <a class="btn btn-danger">
+                    View Source Code
+                </a>
+        </div>
+        </div>
+        
+        </div>
+        <div id="item3">
+            <h3 style="text-align: center;">Project Unplash Image API</h3>
+            <p class="description">
+                A simple but powerful way to fetch the image from API.The idea behind these project is to understand how API call can be done using React.
+            </p>
+            <div style="display: flex;flex-direction: row">
+            <div class="tech">
+                <h4 style="text-align: left;font-size: larger;font-weight: bolder;">Technology used</h4>
+                <h6 style="font-weight: bold; font-size: medium;">Languages:<span style="font-size:small;color: darkblue;">html,css,js</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Technology:<span style="font-size:small;color: darkblue;">React</span></h6>
+                <!-- <h6 style="font-weight: bold; font-size: medium;">Tools:<span style="font-size:small;color: darkblue;">postman</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Databse:<span style="font-size:small;color: darkblue;">mongodb</span></h6> -->
+            </div>
+            <div class="innerdiv">
+                <a class="btn btn-primary" href="https://warm-axle-265415.web.app/">
+                    View Live
+                </a>
+                <a class="btn btn-danger">
+                    View Source Code
+                </a>
+        </div>
+        </div>
+        
+        </div>
+
+        <div id="item2">
+            <h3 style="text-align: center;">Project BMI Calculator</h3>
+            <p class="description">
+                A simple BMI App which will help you to find out body mass index of human body.The idea behind to create these app is to understand how the React State is work.
+            </p>
+            <div style="display: flex;flex-direction: row">
+            <div class="tech">
+                <h4 style="text-align: left;font-size: larger;font-weight: bolder;">Technology used</h4>
+                <h6 style="font-weight: bold; font-size: medium;">Languages:<span style="font-size:small;color: darkblue;">html,css,js</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Technology:<span style="font-size:small;color: darkblue;">React</span></h6>
+                <!-- <h6 style="font-weight: bold; font-size: medium;">Tools:<span style="font-size:small;color: darkblue;">postman</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Databse:<span style="font-size:small;color: darkblue;">mongodb</span></h6> -->
+            </div>
+            <div class="innerdiv">
+                <a class="btn btn-primary" href="https://velvety-pagoda-258611.web.app/">
+                    View Live
+                </a>
+                <a class="btn btn-danger">
+                    View Source Code
+                </a>
+        </div>
+        </div>
+        
+        </div>
+        <div id="item3">
+            <h3 style="text-align: center;">Project ToDo App & Calculator</h3>
+            <p class="description">
+               A simple todo App and Calculator made using React.These is the first app that i have created while learning react.
+            </p>
+            <div style="display: flex;flex-direction: row">
+            <div class="tech">
+                <h4 style="text-align: left;font-size: larger;font-weight: bolder;">Technology used</h4>
+                <h6 style="font-weight: bold; font-size: medium;">Languages:<span style="font-size:small;color: darkblue;">html,css,js</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Technology:<span style="font-size:small;color: darkblue;">React</span></h6>
+                <!-- <h6 style="font-weight: bold; font-size: medium;">Tools:<span style="font-size:small;color: darkblue;">postman</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Databse:<span style="font-size:small;color: darkblue;">mongodb</span></h6> -->
+            </div>
+            <div class="innerdiv">
+                <a class="btn btn-primary" href="https://mineral-concord-265415.web.app/">
+                    View Live
+                </a>
+                <a class="btn btn-danger">
+                    View Source Code
+                </a>
+        </div>
+        </div>
+        
+        </div>
+        <div id="item1">
+            <h3 style="text-align: center;">Project First Javascript Calculator</h3>
+            <p class="description">
+                A simple UI based javascript calculator.
+            </p>
+            <div style="display: flex;flex-direction: row">
+            <div class="tech">
+                <h4 style="text-align: left;font-size: larger;font-weight: bolder;">Technology used</h4>
+                <h6 style="font-weight: bold; font-size: medium;">Languages:<span style="font-size:small;color: darkblue;">html,css,js</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Technology:<span style="font-size:small;color: darkblue;">React</span></h6>
+                <!-- <h6 style="font-weight: bold; font-size: medium;">Tools:<span style="font-size:small;color: darkblue;">postman</span></h6>
+                <h6 style="font-weight: bold; font-size: medium;">Databse:<span style="font-size:small;color: darkblue;">mongodb</span></h6> -->
+            </div>
+            <div class="innerdiv">
+                <a class="btn btn-primary" href="https://kamalksahoo.github.io/calculator/cal.html">
+                    View Live
+                </a>
+                <a class="btn btn-danger" href="https://github.com/kamalksahoo/kamalksahoo.github.io/tree/master/calculator">
+                    View Source Code
+                </a>
+        </div>
+        </div>
+        </div>
+
+     
+    </div>
+
+</body>
+</html>
