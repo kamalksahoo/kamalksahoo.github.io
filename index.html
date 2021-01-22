@@ -1,24 +1,3 @@
-<!-- <html>
-<head>
-<title>my portfolio</title>
-</head>
-<body style="font-size:30px">
-<center>
-<h1>portfolio website</h1>
- 
- <a href="https://centered-effort-228711.web.app/">Ecommerce website</a><br> 
- <a href="https://velvety-pagoda-258611.web.app/">BMI using React</a><br> 
-  <a href="https://warm-axle-265415.web.app/">Unplash Image API</a><br> 
- <a href="https://molten-castle-265509.web.app/">movie rater app using React</a><br> 
- <a href="https://mineral-concord-265415.web.app/">TODO & Calculator app Using React</a><br> 
-<a href="./calculator/cal.html">calculator using html,Javascript</a><br>
-<a href="./clock/clock.html">Digital clockusing Javascript</a><br>
-<a href="./aptitude startup/navbar.html"> Home page using Html,Bootstrap</a><br>
-</center>
-</body>
-</html>
- -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -189,7 +168,24 @@
             color: brown;
             font-weight: bolder;
         }
-  
+        .footer{
+           background-color: brown;
+            font-family: 'Times New Roman', Times, serif;
+            width: 100%;
+            height:50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: center;
+            color: bisque;
+        }
+        .footeritems{
+            margin: 10px;
+        }
+        .footeritems a{
+            color: yellow;
+        }
+
 
     </style>
 </head>
@@ -198,7 +194,7 @@
     <div style="height: 50px; padding: 10px;" class="container-fluid bg-success text-center headers">
         <a style="font-weight: bold; font-size: larger; margin: 10px; "  href="#outer">Home</a>
         <a  style="font-weight: bold; font-size: larger; margin: 10px; " href="#data" > My Projects</a>
-        <a style="font-weight: bold; font-size: larger; margin: 10px; " href="" >Contact us</a>
+        <a style="font-weight: bold; font-size: larger; margin: 10px; " href="#contact" >Contact us</a>
     </div>
     <div id="outer">
         <div class="inner">
@@ -364,9 +360,18 @@
         </div>
         </div>
         </div>
-
-     
     </div>
+    <div class="footer" id="contact">
+        <h5>Social Media Presence </h5>
+        <div class="footeritems">
+            <a href="https://github.com/kamalksahoo">Github</a>
+            <a href="https://www.linkedin.com/in/kamal-kant-sahoo-839a8b152/">Linkedin</a>
+        </div>
+        <div style="align-self: center;">
+            <a class="btn btn-primary" href="mailto:kamal44399@gmail.com">Email me</a>
+            <a class="btn btn-success" href="tel:+91 8132922696">Contact me</a>
+        </div>
+      </div>
 
 </body>
 </html>
